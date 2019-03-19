@@ -15,7 +15,6 @@ in vec2 _TexCoord;
 in mat3 _TBN;
 
 out vec4 _outFragColor;
-out vec2 _outTestGroupDu;
 
 void main()
 {
@@ -43,4 +42,8 @@ void main()
 	{
 		_outFragColor.xyz = Normal;
 	}
+}
+
+void rebase(){
+	vec2 doesnotmatter;
 }
