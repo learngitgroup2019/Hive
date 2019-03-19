@@ -1,0 +1,12 @@
+<MODEL>
+  cube
+  <MODEL_FILE_NAME> ../EffectMedia/cube/cube.obj </MODEL_FILE_NAME>
+</MODEL>
+
+<WORLD> scene
+  <ENTITY_MODEL>
+    cube
+    <WE_MODEL_REFERENCE> cube </WE_MODEL_REFERENCE>
+    <WE_SCALE>4 0.01 4</WE_SCALE>
+  </ENTITY_MODEL>
+</WORLD>

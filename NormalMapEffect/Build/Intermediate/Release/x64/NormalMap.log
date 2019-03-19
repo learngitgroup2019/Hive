@@ -1,0 +1,12 @@
+﻿  NormalMapComponent.cpp
+D:\Hive_Binary\include\common/HiveConfig.h(126): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+  main.cpp
+D:\Hive_Binary\include\common/HiveConfig.h(126): warning C4267: “return”: 从“size_t”转换到“unsigned int”，可能丢失数据
+    正在创建库 F:\项目\Hive_Effects\trunk\x64\Release\NormalMap.lib 和对象 F:\项目\Hive_Effects\trunk\x64\Release\NormalMap.exp
+  正在生成代码
+  1479 of 2071 functions (71.4%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    34 functions had inline decision re-evaluated but remain unchanged
+  已完成代码的生成
+  NormalMap.vcxproj -> F:\项目\Hive_Effects\trunk\x64\Release\NormalMap.exe
+  NormalMap.vcxproj -> F:\项目\Hive_Effects\trunk\x64\Release\NormalMap.pdb (Full PDB)

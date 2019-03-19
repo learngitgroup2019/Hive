@@ -1,0 +1,11 @@
+<UI_SYSTEM> true </UI_SYSTEM>
+
+<UI_WIDGET_SET>
+  widget_set
+  <UI_WIDGET>
+    checkBox_1
+    <WIDGET_TYPE> CHECKBOX </WIDGET_TYPE>
+    <#WIDGET_TEXT> Enable NormalMap</#WIDGET_TEXT>
+    <CHECK_BOX_VALUE> true </CHECK_BOX_VALUE>
+  </UI_WIDGET>
+</UI_WIDGET_SET>

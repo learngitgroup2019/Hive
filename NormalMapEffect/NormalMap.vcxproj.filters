@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="HeaderFiles">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="RenderTechnique">
+      <UniqueIdentifier>{43e39132-9897-4421-a780-9be25feaefab}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ShaderFiles">
+      <UniqueIdentifier>{2e038b21-c37b-4368-8f13-2c95ab34ab6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SourceFiles">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="RenderTechnique\PerpixelShading.xml">
+      <Filter>RenderTechnique</Filter>
+    </Xml>
+    <Xml Include="RenderEngine.xml" />
+    <Xml Include="Scene.xml" />
+    <Xml Include="GUI.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\NormalMapComponent.cpp">
+      <Filter>SourceFiles</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\NormalMapComponent.h">
+      <Filter>HeaderFiles</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Shader\fragPerpixelShading.glsl">
+      <Filter>ShaderFiles</Filter>
+    </None>
+    <None Include="Shader\vertPerpixelShading.glsl">
+      <Filter>ShaderFiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>
