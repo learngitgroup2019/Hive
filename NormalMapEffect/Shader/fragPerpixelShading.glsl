@@ -43,7 +43,3 @@ void main()
 		_outFragColor.xyz = Normal;
 	}
 }
-
-void rebase(){
-	vec2 doesnotmatter;
-}
